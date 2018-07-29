@@ -28,9 +28,5 @@ def api():
 # to access the above, use:
 # http://127.0.0.1:5000/API?arg1=One&arg2=Two
 
-@app.route('/bokeh')
-def bok():
-    
-
 if __name__ == '__main__':
     app.run()
